@@ -1,2 +1,2 @@
-# snax777.github.io
+# Snax's Personal Simple Website
 A repository about my work portfolio
