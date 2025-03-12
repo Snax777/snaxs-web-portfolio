@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="My simple website of my work portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Portfolio</title>
+    <style>
+        html {
+            background-color: black;
+        }
+
+        body {
+            padding: 30px;
+            font-family: Arial, sans-serif;
+            color: whitesmoke;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 4rem;
+        }
+
+        #image {
+            text-align: center;
+        }
+
+        #photo-caption {
+            text-align: center;
+            font-weight: bold;
+            font-size: 2rem;
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            font-size: 3rem;
+            margin-top: 20px;
+        }
+
+        ol {
+            font-size: 1.5rem;
+            margin-bottom: 50px;
+        }
+
+        span {
+            font-weight: bold;
+            color: red;
+        }
+
+        ul {
+            font-size: 1.5rem;
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        .skills-icons img {
+            margin: 5px;
+            vertical-align: middle;
+        }
+
+        #social-platforms a {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        #C-V {
+            font-size: 1.5rem;
+        }
+
+        #Resume {
+            font-size: 1.5rem;
+        }
+
+        .cv-resume-link {
+            font-size: 1.5rem;
+            color: whitesmoke;
+        }
+
+        .cv-resume-link:hover {
+            background-color: whitesmoke;
+            color: black;
+        }
+
+        .notebook-link {
+            font-size: 1.5rem;
+            color: whitesmoke;
+        }
+
+        .notebook-link:hover {
+            background-color: rgb(175, 39, 39);
+            color: black;
+        }
+
+        .project-link {
+            font-size: 1.5rem;
+            color: whitesmoke;
+        }
+
+        .project-link:hover {
+            background-color: gray;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Work Portfolio of Sinethemba Tompelo</h1>
+    <div id="image">
+        <img src="./images/Snax-solving-rubik-cube-resized-again.jpg" alt="Young black man solving a Rubik cube">
+    </div>
+    <p id="photo-caption">Sinethemba Tompelo is smiling through the pain, trying to solve the Rubik cube.</p>
+
+    <h2>Bio</h2>
+    <ol>
+        <li>He is <span>21 years old</span>.</li>
+        <li>He <span>matriculated in 2020 at Athlone Boys' High School</span>, in Johannesburg.</li>
+        <li>He <span>enjoys spending time on problem-solving hobbies</span>,<span> mainly playing chess</span>.</li>
+        <li>He <span>currently lives in Hillbrow</span>.</li>
+        <li>He <span>discovered the passion for coding in September 2022</span>, <span>the same time he underwent basic computer training</span>.</li>
+        <li>He <span>is very introverted, but not afraid to talk</span>.</li>
+    </ol>
+
+    <h2>Skills</h2>
+    <ul>
+        <li>Python: NumPy, Pandas, Matplotlib, Scipy, Statsmodels & Scikit-learn
+            <div class="skills-icons">
+                <img src="./images/python3-icon-resized.png" alt="Python 3 logo">
+                <img src="./images/pandas-icon-resized.png" alt="Pandas package logo">
+                <img src="./images/numpy-icon-resized.png" alt="Numpy package logo">
+                <img src="./images/matplotlib-icon-resized.png" alt="Matplotlib library logo">
+                <img src="./images/scipy.png" alt="Scipy library logo">
+                <img src="./images/statsmodels-white-background.jpg" alt="Statsmodels library logo">
+                <img src="./images/scikit-learn-white-background.jpg" alt="scikit-learn library logo">
+            </div>
+        </li>
+        <li>Git & GitHub
+            <div class="skills-icons">
+                <img src="./images/git-icon.png" alt="Git logo">
+                <img src="./images/github-icon-resized.png" alt="GitHub logo">
+            </div>
+        </li>
+        <li>HTML5 & CSS3
+            <div class="skills-icons">
+                <img src="./images/html5-and-css3-logo-resized.png" alt="HTML5 and CSS3 logos">
+            </div>
+        </li>
+        <li>SQL: PostgreSQL
+            <div class="skills-icons">
+                <img src="./images/postgresql-logo-resized.png" alt="PostgreSQL logo">
+            </div>
+        </li>
+    </ul>
+
+    <h2>Social Platforms</h2>
+    <div id="social-platforms">
+        <a href="https://www.instagram.com/snax_the_klown/" target="_blank">
+            <img src="./images/instagram-logo-resized.png" alt="@snax_the_klown">
+        </a>
+        <a href="https://github.com/Snax777" target="_blank">
+            <img src="./images/github-logo.png" alt="github.com/Snax777">
+        </a>
+        <a href="https://www.linkedin.com/in/sinethemba-tompelo-696739237/" target="_blank">
+            <img src="./images/linkedin-logo-reduced.jpg" alt="LinkedIn: Sinethemba Tompelo">
+        </a>
+    </div>
+
+    <br><h2>C.V.</h2><br>
+    <p id="C-V">To view my C.V., <a class="cv-resume-link" href="./curriculum-vitae/C.V..pdf" target="_blank">click here</a>.</p>
+
+    <br><h2>Resume</h2><br>
+    <p id="Resume">To view my resume, <a class="cv-resume-link" href="./curriculum-vitae/resume/Resume-Sinethemba-Tompelo.docx" target="_blank">click here</a></p>
+    
+    <br><h2>Projects</h2><br>
+    <ul>
+        <li>Notebooks:
+            <ul>
+                <li>
+                    - <a class="notebook-link" href="https://nbviewer.org/github/Snax777/notebooks/blob/main/housing_price/notebook/house_price_prediction.ipynb" target="_blank">
+                        Housing Price Prediction
+                    </a>
+                </li>
+                <li>
+                    - <a class="notebook-link" href="https://nbviewer.org/github/Snax777/pred_modelling_agriculture/blob/main/notebook/logistic_reg.ipynb" target="_blank">
+                        Fertiliser-Crop Prediction
+                    </a>
+                </li>
+            </ul>
+        </li><br>
+        <li>
+            <a class="project-link" href="https://replit.com/join/uruyuhlkie-snax777" target="_blank">Basic Chess App (Requires Replit account)</a>
+        </li>
+    </ul>
+
+</body>
+</html>
